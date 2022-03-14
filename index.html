@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadanie rekrutacyjne</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="squares">
+      <button
+        type="button"
+        data-context="subtract"
+        class="squares__btn squares__btn--gold squares__btn--small"
+      ></button>
+      <button
+        type="button"
+        data-context="multiply"
+        class="squares__btn squares__btn--blue squares__btn--small"
+      ></button>
+      <button
+        type="button"
+        data-context="sum"
+        class="squares__btn squares__btn--red squares__btn--big squares__btn--bigFirst"
+      ></button>
+      <button
+        type="button"
+        data-context="subtract"
+        class="squares__btn squares__btn--gold squares__btn--small"
+      ></button>
+      <button
+        type="button"
+        data-context="multiply"
+        class="squares__btn squares__btn--blue squares__btn--small"
+      ></button>
+      <button
+        type="button"
+        data-context="subtract"
+        class="squares__btn squares__btn--gold squares__btn--small"
+      ></button>
+      <button
+        type="button"
+        data-context="multiply"
+        class="squares__btn squares__btn--blue squares__btn--small"
+      ></button>
+      <button
+        type="button"
+        data-context="subtract"
+        class="squares__btn squares__btn--gold squares__btn--small"
+      ></button>
+      <button
+        type="button"
+        data-context="multiply"
+        class="squares__btn squares__btn--blue squares__btn--small"
+      ></button>
+      <button
+        type="button"
+        data-context="sum"
+        class="squares__btn squares__btn--red squares__btn--big squares__btn--bigLast"
+      ></button>
+      <button
+        type="button"
+        data-context="subtract"
+        class="squares__btn squares__btn--gold squares__btn--small"
+      ></button>
+      <button
+        type="button"
+        data-context="multiply"
+        class="squares__btn squares__btn--blue squares__btn--small"
+      ></button>
+    </div>
+
+    <form class="form">
+      <div class="form__container">
+        <input
+          class="form__input form__input--a"
+          id="a"
+          type="number"
+          placeholder="input_a"
+        />
+        <input
+          class="form__input form__input--b"
+          id="b"
+          type="number"
+          placeholder="input_b"
+        />
+        <input
+          class="form__input form__input--c"
+          type="number"
+          placeholder="input_c"
+        />
+        <input
+          class="form__input form__input--d"
+          type="number"
+          placeholder="input_d"
+        />
+        <input
+          class="form__input form__input--e"
+          type="number"
+          placeholder="input_e"
+        />
+        <input
+          class="form__input form__input--f"
+          type="number"
+          placeholder="input_f"
+        />
+        <output class="form__output"></output>
+      </div>
+    </form>
+
+    <script type="module" src="calculate.js"></script>
+  </body>
+</html>
